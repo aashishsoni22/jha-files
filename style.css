@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#logo{
+    margin-left: 220px;
+}
+.header-bg{
+    background-color: #121247;
+}
+nav{
+    margin-left: 120px;
+}
+nav ul{
+    display: block;
+}
+nav ul li{
+    margin-left: 50px;
+    display: inline;
+    
+}
+nav ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: white;
+    padding-bottom: 16px;
+    transition-duration: 1.5s;
+}
+nav ul li a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    transition-duration: 1.5s;
+}
+#banner-img{
+    background-image: url('img/banner-bg.svg');
+    background-color: #121247;
+    width: 100%;
+    height: 550px;
+}
+#title-banner{
+    color: white;
+    font-size: 60px;
+    font-family: arial;
+    font-weight: 900;
+    margin: 200px 0px 0px 100px;
+}
+#we-are{
+    background-color: #121247; 
+    padding-top: 50px;
+}
+#we-are img{
+    margin-top: 100px;
+    margin-bottom: -110px;
+}
+#txt-who-are{
+    margin-top: 150px;
+    padding-left: 30px;
+}
+#txt-who-are h2 span{
+    border-bottom: 5px solid black;
+}
+#txt-who-are p{
+    padding-top: 30px;
+    font-family: 'Roboto';
+    color: #030e1f;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+#we-help{
+    margin-top: 110px;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+#we-help h3 span{
+    border-bottom: 5px solid black;
+}
+#we-help p{
+    padding-top: 30px;
+    font-family: 'Roboto';
+    color: #030e1f;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.67;
+}
+#group-img-style{
+    background-color: #121247;
+}
+#group-img-style img{
+    max-width: 100%;
+    height: 700px;
+    margin-left: 110px;
+    margin-bottom: -500px;
+    margin-top: -80px;
+}
+
+.ceo img{
+    clip-path: polygon(0 0, 0 1000px, 700px 800px, 500px 0);
+    background-color: #121247;
+    
+}
+.ceo-btn img{
+    background-color: #f1f0ff;
+    margin-top: 20px;
+}
+.ceo-btn p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.ceo .left-btn{
+    float: right;
+    margin-right: 90px;
+    padding-left: 20px;
+    margin-top: 220px;
+}
+.ceo-btn button{
+    color: #121247;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #f1f0ff;
+    border: 2px solid #121247;
+    border-radius: 5px;
+}
+.view-company button{
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    font-family: arial;
+    border-radius: 2px;
+    font-weight: 800;
+    margin-top: 30px;
+    background-color: #121247;
+    color: white;
+    padding: 20px;
+}
+.view-company p{
+    width: 100;
+    font-size: 24px;
+}
+footer{
+    background-color: #121247;
+}
+#mail-style a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+}
